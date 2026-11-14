@@ -1,6 +1,23 @@
+# dependencies and build output
 node_modules/
 dist/
+
+# test and benchmark output (bench/results/ is kept: the design notes cite it)
 test-results/
 playwright-report/
+blob-report/
 out/
+
+# Python caches from design-checks/ and tools/hp/
+__pycache__/
+*.pyc
+
+# editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
 *.log
+.env

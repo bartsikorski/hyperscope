@@ -1,8 +1,16 @@
 {
   "name": "hyperscope",
   "version": "0.1.0",
-  "description": "GPU explorer of the hyperbolic plane: Poincaré and Klein disks, half-plane and local views, triangle-group tilings, a unit grid and Escher-style colourings",
+  "description": "GPU explorer of the hyperbolic plane in seven views: triangle-group and Wythoff tilings, Escher-style motifs, your own tile pictures, a unit grid and deep zoom",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartsikorski/hyperscope.git"
+  },
+  "homepage": "https://bartsikorski.github.io/hyperscope/",
+  "engines": {
+    "node": ">=22"
+  },
   "private": true,
   "type": "module",
   "scripts": {

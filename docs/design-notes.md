@@ -4,6 +4,27 @@ Decisions taken while building, with the reasons and the measurements behind the
 document holds the plan; this file records what the code actually does where the two differ or
 where the plan left a choice open.
 
+## State after milestone 2
+
+Milestone 2 (steps 11 to 18 of the second precise design) is done, on top of version 1 below.
+
+- **What it draws.** Seven views: version 1's four, the band (step 11), the plane seen from an eye
+  inside H³ (step 12, with the view tilting as the eye rises) and the hyperboloid as a surface in
+  space (step 13). Colourings up to eight colours, chiral colourings and Mosaic from an exact tile
+  identity (step 14); the Wythoff constructions with the snub and a free point (step 15); motifs
+  with four built-in designs of our own (step 16); your own picture in the tile (step 17).
+- **How it is checked.** 447 unit tests and 201 GPU tests, 182 golden images; every formula was
+  checked numerically before coding (`design-checks/`). The new paths were benchmarked on an
+  RTX 5060 Ti (step 18): none of the alternatives qualified, so the code stayed as it was.
+- **Left for later** (milestone 3 and on, not designed yet): fractals and size-comparison objects,
+  the desktop companion, and walking inside H³ worlds (milestone 4). Motifs are the costliest
+  content (3 to 8 times a plain tiling), so an exact speed-up of their curves is the optimisation
+  worth looking for next.
+- **Release preparation** (after step 18): the help lists every key in three columns, the first
+  visit says how to move and where the controls are, the construction list says "Lines (the
+  mirrors)", and the repository gained continuous integration, a GitHub Pages build and a README
+  for readers who have not seen the design.
+
 ## State of version 1
 
 All ten build steps are done; each step below has its plan, what changed while coding, and its

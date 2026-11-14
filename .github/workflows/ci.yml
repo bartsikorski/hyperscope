@@ -1,0 +1,30 @@
+# Type check, unit tests and the single-file build on every pull request and push to main.
+# The browser tests (npm run test:gpu) take about 40 minutes on a software renderer, so they run
+# locally instead.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hyperscope.html
+          path: dist/hyperscope.html
