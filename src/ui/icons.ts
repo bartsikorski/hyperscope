@@ -1,9 +1,9 @@
 // Icons as inline SVG, bundled so the app works offline: Font Awesome 6 Free solid icons (CC BY 4.0,
-// https://fontawesome.com/license/free, see THIRD_PARTY_NOTICES.md) and the five view pictograms,
-// drawn here (six now): an ideal triangle in the Poincaré disk (arcs) and in the Klein disk (chords), two
+// https://fontawesome.com/license/free, see THIRD_PARTY_NOTICES.md) and the seven view pictograms,
+// drawn here: an ideal triangle in the Poincaré disk (arcs) and in the Klein disk (chords), two
 // half-plane geodesics, the local view's rings of equal distance around its centre, the plane inside
-// H3 as a horizon over ground lines running toward it, and the band's two edges with a geodesic
-// across.
+// H3 as a horizon over ground lines running toward it, the hyperboloid's bowl, and the band's two
+// edges with a geodesic across.
 
 import type { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import type { Model } from "../math/views.ts";

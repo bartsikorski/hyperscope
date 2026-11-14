@@ -53,22 +53,6 @@ const HELP: [string, [string, string][]][] = [
     ],
   ],
   [
-    "Inside H³ (5)",
-    [
-      ["W A S D, drag", "walk over the plane"],
-      ["Q  E, right-drag", "turn; right-drag up and down looks up and down"],
-      ["Wheel, +  −", "lower or raise the eye, 0.01 to 6 R"],
-    ],
-  ],
-  [
-    "Hyperboloid (6)",
-    [
-      ["Drag, W A S D", "move the plane over the surface"],
-      ["Q  E, right-drag", "turn; right-drag up and down orbits higher or lower"],
-      ["Wheel, +  −", "orbit nearer or farther, 1.5 to 40 R"],
-    ],
-  ],
-  [
     "Move",
     [
       ["W A S D, arrows", "move"],
@@ -86,13 +70,41 @@ const HELP: [string, [string, string][]][] = [
       ["1 – 7", "Poincaré disk, Klein disk, half-plane, local view, inside H³, hyperboloid, band"],
       ["C, Shift+C", "next, previous preset"],
       ["L, Shift+L or .  ,", "next, previous look"],
-      ["P", "palette"],
-      ["K", "colouring"],
+      ["P, Shift+P", "next, previous palette"],
+      ["K, Shift+K", "next, previous colouring"],
       ["O, Shift+O", "next, previous construction: Lines, the Wythoff tilings, the snub"],
       ["M, Shift+M", "next, previous motif: none, Shoal, Moths, Rosette, Birds"],
       ["G", "unit grid on or off"],
-      ["T", "grid type: Cartesian, polar, horocyclic"],
-      ["U", "size of R: Earth's radius, 1 km, 1 m, bare units"],
+      ["T, Shift+T", "grid type: Cartesian, polar, horocyclic"],
+      ["U, Shift+U", "size of R: Earth's radius, 1 km, 1 m, bare units"],
+    ],
+  ],
+  [
+    "Interface",
+    [
+      ["Tab", "hide or show the interface"],
+      ["F", "full screen"],
+      ["F1 or ?", "this help"],
+      ["Ctrl+C, Ctrl+V", "copy a link to this view, open a pasted one"],
+      ["Ctrl+S, F12", "save a screenshot (its view is inside: drop it here to return)"],
+      ["Drop a file", "a screenshot, saved state, presets or motif opens; any other picture fills the tile"],
+      ["Esc", "close"],
+    ],
+  ],
+  [
+    "Inside H³ (5)",
+    [
+      ["W A S D, drag", "walk over the plane"],
+      ["Q  E, right-drag", "turn; right-drag up and down looks up and down"],
+      ["Wheel, +  −", "lower or raise the eye, 0.01 to 6 R"],
+    ],
+  ],
+  [
+    "Hyperboloid (6)",
+    [
+      ["Drag, W A S D", "move the plane over the surface"],
+      ["Q  E, right-drag", "turn; right-drag up and down orbits higher or lower"],
+      ["Wheel, +  −", "orbit nearer or farther, 1.5 to 40 R"],
     ],
   ],
   [
@@ -108,17 +120,6 @@ const HELP: [string, [string, string][]][] = [
       ["D-pad", "preset (up, down), look (left, right)"],
       ["L3  R3", "palette, colouring"],
       ["Start, View", "home, hide the interface"],
-    ],
-  ],
-  [
-    "Interface",
-    [
-      ["Tab", "hide or show the interface"],
-      ["F", "full screen"],
-      ["F1 or ?", "this help"],
-      ["Ctrl+C, Ctrl+V", "copy a link to this view, open a pasted one"],
-      ["Ctrl+S, F12", "save a screenshot (its view is inside: drop it here to return)"],
-      ["Esc", "close"],
     ],
   ],
 ];
@@ -360,8 +361,8 @@ export class Hud {
     }
   }
 
-  /** A short note at the bottom of the screen; an empty text takes the current one away. */
-  toast(text: string): void {
+  /** A short note at the bottom of the screen, for ms; an empty text takes the current one away. */
+  toast(text: string, ms = TOAST_MS): void {
     clearTimeout(this.toastTimer);
     if (!text) {
       delete this.toastEl.dataset.on;
@@ -369,7 +370,7 @@ export class Hud {
     }
     this.toastEl.textContent = text;
     this.toastEl.dataset.on = "";
-    this.toastTimer = window.setTimeout(() => delete this.toastEl.dataset.on, TOAST_MS);
+    this.toastTimer = window.setTimeout(() => delete this.toastEl.dataset.on, ms);
   }
 
   /** The accent colour of the controls, as #rrggbb. */

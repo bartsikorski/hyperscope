@@ -56,6 +56,13 @@ const REST_MS = 400;
 const SESSION_MS = 1000;
 const LINK_MS = 300;
 const SESSION_KEY = "hyperscope.session";
+/** The first visit's hint stays this long (a toast is 2.4 s). */
+const FIRST_HINT_MS = 7000;
+/** How to start: drag and zoom, and where the rest is; touch screens pinch instead of the wheel. */
+const firstHint = (): string => {
+  const touch = typeof matchMedia === "function" && matchMedia("(pointer: coarse)").matches;
+  return touch ? "Drag to move, pinch to zoom · tap ? for the controls" : "Drag to move, wheel to zoom · press ? for all the controls";
+};
 /** Your presets' pictures, device pixels (square). */
 const THUMB_PX = 192;
 /** The screenshot size is this device's own choice, kept apart from the saved state. */
@@ -923,6 +930,8 @@ function start(gl: WebGL2RenderingContext): void {
   }
   first ??= readSession();
   if (first) applySnapshot(first);
+  // a first visit (no link, no session): say how to move and where the controls are
+  else if (!linkShown) hud.toast(firstHint(), FIRST_HINT_MS);
   void sweepPictures(picturesInUse());
   views.record(entry());
   showChrome();

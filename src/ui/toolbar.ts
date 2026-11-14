@@ -1,5 +1,5 @@
 // The icon row at the top right (design: Interface): home, back and forward through the views,
-// the four views, the presets gallery, the unit grid, a screenshot, the settings card and help. Each button names its key in its
+// the seven views, the presets gallery, the unit grid, a screenshot, the settings card and help. Each button names its key in its
 // tooltip; the chosen view, the grid and the open card show in the accent colour.
 
 import { faArrowLeft, faArrowRight, faBorderAll, faCamera, faCircleQuestion, faHouse, faImages, faSliders } from "@fortawesome/free-solid-svg-icons";

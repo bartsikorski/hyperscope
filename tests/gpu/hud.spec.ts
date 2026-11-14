@@ -138,6 +138,24 @@ test("F1 and ? open the help, Esc and its close button shut it, and it holds off
   expect(await page.evaluate(() => window.hyperscope.error)).toBeUndefined();
 });
 
+test("a first visit says how to move and where the controls are; a visit with a session does not", async ({ page }) => {
+  await open(page);
+  const toast = page.locator(".hs-toast");
+  await expect(toast).toHaveText("Drag to move, wheel to zoom · press ? for all the controls");
+  await expect(toast).toBeVisible();
+  // the help lists the keys that step back as well as forward
+  await page.keyboard.press("F1");
+  for (const key of ["P, Shift+P", "K, Shift+K", "T, Shift+T", "U, Shift+U", "Drop a file"]) await expect(page.locator(".hs-help")).toContainText(key);
+  await page.keyboard.press("Escape");
+  // once the session is written, a reload returns to it without the hint
+  await page.keyboard.press("2");
+  await page.waitForFunction(() => localStorage.getItem("hyperscope.session") !== null && localStorage.getItem("hyperscope.session")!.includes("klein"), undefined, { timeout: 10_000 });
+  await page.reload();
+  await page.waitForFunction(() => window.hyperscope?.ready || window.hyperscope?.error);
+  await page.waitForTimeout(500);
+  await expect(toast).not.toHaveText(/Drag to move/);
+});
+
 test("the grid's labels keep out of the readouts, and the long title wraps between its parts", async ({ page }) => {
   await open(page);
   await page.keyboard.press("Shift+C"); // the Unit grid preset, in km

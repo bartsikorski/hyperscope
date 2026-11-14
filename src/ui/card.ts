@@ -155,7 +155,7 @@ export function constructionName(group: [number, number, number], c: Constructio
 
 /** A construction as the list shows it: its name and Wythoff symbol. */
 export function constructionLabel(group: [number, number, number], c: Construction): string {
-  if (c === "lines") return "Lines (the mirrors, version 1)";
+  if (c === "lines") return "Lines (the mirrors)";
   if (c === "free") return "Free point (drag it below)";
   return `${constructionName(group, c)}   ${wythoffSymbol({ p: group[0], q: group[1], r: group[2] }, c)}`;
 }
