@@ -1,0 +1,57 @@
+ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0
+1920 x 1080, 2026-11-10T19:36:09.841Z
+
+experiment             scene                                                unit          within 2 / worst      A ms      B ms  B / A (rounds)
+fold-dihedral          poincare (7,3,2), inside source                      sample pass       100.00% / 3     0.054     0.050  0.933 (0.92–0.94)
+fold-dihedral          halfplane (7,3,2), inside source                     sample pass        99.97% / 4     0.087     0.081  0.934 (0.92–0.94)
+fold-dihedral          local (7,3,2), inside source                         sample pass        99.84% / 6     0.101     0.095  0.937 (0.91–0.97)
+fold-dihedral          poincare near the boundary (8,3,2), inside source    sample pass        99.97% / 5     0.073     0.073  1.000 (0.99–1.00)
+reflect-branchless     poincare (7,3,2)                                     sample pass       100.00% / 0     0.109     0.145  1.329 (1.31–1.33)
+reflect-branchless     halfplane (7,3,2)                                    sample pass       100.00% / 0     0.149     0.233  1.571 (1.55–1.57)
+reflect-branchless     local (7,3,2)                                        sample pass       100.00% / 0     0.198     0.308  1.565 (1.55–1.57)
+reflect-branchless     halfplane (7,3,2) Escher look                        sample pass       100.00% / 0     0.198     0.295  1.495 (1.48–1.50)
+reflect-branchless     halfplane (7,3,2) Nebula look                        sample pass       100.00% / 0     0.134     0.141  1.056 (1.05–1.06)
+geometry-complex       poincare (7,3,2)                                     sample pass       100.00% / 2     0.109     0.125  1.146 (1.14–1.15)
+geometry-complex       halfplane (7,3,2)                                    sample pass       100.00% / 2     0.149     0.182  1.225 (1.22–1.23)
+geometry-complex       local (7,3,2)                                        sample pass      100.00% / 10     0.196     0.250  1.272 (1.26–1.28)
+geometry-complex       poincare near the boundary (8,3,2)                   sample pass       100.00% / 1     0.118     0.138  1.168 (1.16–1.18)
+footprint-derivatives  poincare (7,3,2)                                     sample pass       97.89% / 44     0.109     0.222  2.033 (2.01–2.04)  not equivalent  vs CPU reference: A 100.00%, mean 0.01; B 97.90%, mean 0.13
+footprint-derivatives  klein (7,3,2)                                        sample pass       96.13% / 71     0.082     0.092  1.121 (1.11–1.13)  not equivalent  vs CPU reference: A 100.00%, mean 0.00; B 96.14%, mean 0.23
+footprint-derivatives  halfplane (7,3,2)                                    sample pass       98.54% / 16     0.149     0.150  1.015 (1.00–1.02)  not equivalent  vs CPU reference: A 100.00%, mean 0.01; B 98.55%, mean 0.07
+footprint-derivatives  local (7,3,2)                                        sample pass       84.57% / 60     0.196     0.201  1.025 (1.01–1.03)  not equivalent  vs CPU reference: A 100.00%, mean 0.02; B 84.54%, mean 0.79
+uber-shader            halfplane (7,3,2)                                    sample pass       100.00% / 0     0.147     0.163  1.113 (1.11–1.11)
+uber-shader            halfplane (7,3,2) Escher look                        sample pass       100.00% / 0     0.195     0.209  1.072 (1.07–1.07)
+uber-shader            halfplane (7,3,2) Midnight look                      sample pass       100.00% / 0     0.085     0.095  1.101 (1.08–1.13)
+uber-shader            halfplane: compile 7 variants                        compile           100.00% / 0     546.6      49.6  0.091 (0.09–0.09)  one run each, first use in a fresh renderer (the browser may cache compiled shaders)
+perm-arrays            poincare (7,3,2)                                     sample pass       100.00% / 0     0.108     0.256  2.373 (2.36–2.37)
+perm-arrays            halfplane (7,3,2)                                    sample pass       100.00% / 0     0.147     0.352  2.404 (2.40–2.41)
+perm-arrays            halfplane {6,4} in eight colours                     sample pass       100.00% / 0     0.133     0.250  1.873 (1.87–1.88)
+wythoff-texture        poincare Truncated {3,7}                             sample pass       100.00% / 0     0.067     0.066  0.999 (0.99–1.00)
+wythoff-texture        halfplane Truncated {3,7}                            sample pass       100.00% / 0     0.116     0.112  0.998 (0.95–1.01)
+wythoff-texture        poincare Omnitruncated {7,3}                         sample pass       100.00% / 0     0.071     0.072  1.009 (1.00–1.01)
+wythoff-texture        halfplane Omnitruncated {7,3}                        sample pass       100.00% / 0     0.117     0.117  0.992 (0.99–1.01)
+wythoff-texture        poincare Snub {5,4}                                  sample pass       100.00% / 0     0.083     0.085  1.039 (1.01–1.04)
+wythoff-texture        halfplane Snub {5,4}                                 sample pass       100.00% / 0     0.135     0.134  0.999 (0.98–1.00)
+wythoff-texture        poincare Snub {5,4} Mosaic                           sample pass       100.00% / 0     0.270     0.257  0.954 (0.95–0.96)
+wythoff-texture        poincare {7,3} free point                            sample pass       100.00% / 0     0.071     0.070  0.997 (0.99–1.00)
+motif-24               poincare Shoal (3,3,4)                               sample pass       99.60% / 14     0.953     0.559  0.587 (0.59–0.59)  B's curves within 6.2e-4 of A's (23 points)
+motif-24               poincare Moths {6,4}                                 sample pass       99.14% / 21     0.897     0.525  0.586 (0.58–0.59)  not equivalent; B's curves within 5.7e-4 of A's (23 points)  vs CPU reference: A 100.00%, mean 0.01; B 99.14%, mean 0.05
+motif-24               poincare Rosette {8,3}                               sample pass       99.52% / 17     0.876     0.488  0.560 (0.56–0.56)  B's curves within 4.4e-4 of A's (23 points)
+motif-24               poincare Birds (4,4,3)                               sample pass       99.14% / 26     1.015     0.649  0.640 (0.63–0.64)  not equivalent; B's curves within 9.6e-4 of A's (23 points)  vs CPU reference: A 99.95%, mean 0.02; B 99.10%, mean 0.06
+motif-24               halfplane Birds (4,4,3)                              sample pass       97.39% / 45     1.876     1.108  0.591 (0.59–0.59)  not equivalent; B's curves within 9.6e-4 of A's (23 points)  vs CPU reference: A 100.00%, mean 0.01; B 97.39%, mean 0.16
+motif-24               h3 Birds (4,4,3)                                     sample pass      98.78% / 102     1.073     0.635  0.592 (0.59–0.59)  not equivalent; B's curves within 9.6e-4 of A's (23 points)  vs CPU reference: A 100.00%, mean 0.00; B 98.79%, mean 0.12
+motif-32               poincare Shoal (3,3,4)                               sample pass       99.93% / 12     0.951     0.689  0.725 (0.72–0.73)  B's curves within 3.0e-4 of A's (31 points)
+motif-32               poincare Moths {6,4}                                 sample pass       99.90% / 21     0.899     0.652  0.723 (0.72–0.73)  B's curves within 2.8e-4 of A's (31 points)
+motif-32               poincare Rosette {8,3}                               sample pass        99.95% / 6     0.872     0.616  0.706 (0.68–0.71)  B's curves within 2.2e-4 of A's (31 points)
+motif-32               poincare Birds (4,4,3)                               sample pass       99.77% / 26     1.021     0.770  0.755 (0.75–0.76)  B's curves within 4.8e-4 of A's (31 points)
+motif-32               halfplane Birds (4,4,3)                              sample pass       98.51% / 35     1.886     1.366  0.726 (0.72–0.73)  not equivalent; B's curves within 4.8e-4 of A's (31 points)  vs CPU reference: A 100.00%, mean 0.01; B 98.52%, mean 0.07
+motif-32               h3 Birds (4,4,3)                                     sample pass       99.18% / 57     1.076     0.779  0.726 (0.72–0.73)  not equivalent; B's curves within 4.8e-4 of A's (31 points)  vs CPU reference: A 100.00%, mean 0.00; B 99.18%, mean 0.05
+grid-pass              halfplane (7,3,2) + cartesian grid                   still picture     95.67% / 56     4.043     2.555  0.634 (0.63–0.63)  outside the golden rule: look at the pictures
+grid-pass              halfplane (7,3,2) + cartesian grid                   moving frame      95.67% / 56     0.082     0.215  2.609 (2.58–2.62)  outside the golden rule: look at the pictures
+grid-pass              poincare (7,3,2) + polar grid                        still picture     98.06% / 59     2.326     1.791  0.775 (0.76–0.78)  outside the golden rule: look at the pictures
+grid-pass              poincare (7,3,2) + polar grid                        moving frame      98.06% / 59     0.058     0.110  1.880 (1.85–1.95)  outside the golden rule: look at the pictures
+grid-pass              klein (7,3,2) + cartesian grid                       still picture     98.25% / 38     2.023     1.362  0.676 (0.67–0.68)  outside the golden rule: look at the pictures
+grid-pass              klein (7,3,2) + cartesian grid                       moving frame      98.25% / 38     0.054     0.106  1.965 (1.95–1.98)  outside the golden rule: look at the pictures
+grid-pass              local unit grid at 1e-9 R/px                         still picture     97.59% / 18     2.600     0.708  0.272 (0.27–0.27)  outside the golden rule: look at the pictures
+grid-pass              local unit grid at 1e-9 R/px                         moving frame      97.59% / 18     0.061     0.207  3.409 (3.39–3.41)  outside the golden rule: look at the pictures

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hyperscope benchmark</title>
+    <style>
+      html, body { margin: 0; background: #05060a; color: #e6e9f0; font: 12px/1.5 "JetBrains Mono", ui-monospace, Consolas, monospace; }
+      main { max-width: 960px; margin: 32px auto; padding: 0 16px; }
+      h1 { font: 600 11px/1 Inter, system-ui, sans-serif; letter-spacing: 0.28em; text-transform: uppercase; color: #8fd3ff; }
+      p { color: #8a93a6; }
+      table { border-collapse: collapse; width: 100%; margin-top: 16px; }
+      th, td { text-align: right; padding: 4px 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+      th:first-child, td:first-child { text-align: left; }
+      th { color: #8a93a6; font-weight: normal; }
+      button { font: inherit; color: #e6e9f0; background: rgba(10, 12, 18, 0.42); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+      canvas { display: none; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Hyperscope benchmark</h1>
+      <p id="info">Fixed scenes rendered off screen; the time is per sample pass (one sample of every pixel).</p>
+      <button id="run">Run</button> <button id="save" disabled>Save JSON</button>
+      <table id="results"></table>
+    </main>
+    <canvas id="gl" width="16" height="16"></canvas>
+    <script type="module" src="./bench.ts"></script>
+  </body>
+</html>

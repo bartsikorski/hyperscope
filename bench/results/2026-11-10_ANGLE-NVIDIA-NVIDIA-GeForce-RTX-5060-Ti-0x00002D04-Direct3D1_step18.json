@@ -1,0 +1,1107 @@
+{
+ "date": "2026-11-10T19:34:56.712Z",
+ "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+ "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+ "floatTargets": true,
+ "timing": "median wall time per sample pass, synchronised by a 1-pixel read-back",
+ "results": [
+  {
+   "name": "poincare (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.699999988079071,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "klein (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.30000001192092896,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.445998071359692,
+   "sweeps": 4.162970106075217
+  },
+  {
+   "name": "klein (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.5999999940395355,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.57039537126326,
+   "sweeps": 4.220347155255545
+  },
+  {
+   "name": "halfplane (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.9000000059604645,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "local (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 14.423225308641975,
+   "sweeps": 7.235677083333333
+  },
+  {
+   "name": "local (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1,
+   "coverage": 1,
+   "reflections": 14.423225308641975,
+   "sweeps": 7.235677083333333
+  },
+  {
+   "name": "h3 (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.6166087962962963,
+   "reflections": 4.314562803065853,
+   "sweeps": 3.3774440794619114
+  },
+  {
+   "name": "h3 (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.7999999821186066,
+   "coverage": 0.6166087962962963,
+   "reflections": 4.369623025183794,
+   "sweeps": 3.4066948224620677
+  },
+  {
+   "name": "hyperboloid (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 9.172694830246913,
+   "sweeps": 5.142216435185185
+  },
+  {
+   "name": "hyperboloid (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1,
+   "coverage": 1,
+   "reflections": 9.172694830246913,
+   "sweeps": 5.142216435185185
+  },
+  {
+   "name": "band (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 0.7962962962962963,
+   "reflections": 14.820373062015504,
+   "sweeps": 7.402374031007752
+  },
+  {
+   "name": "band (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1,
+   "coverage": 0.7962962962962963,
+   "reflections": 15.61906492248062,
+   "sweeps": 7.74140019379845
+  },
+  {
+   "name": "poincare (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 9.600289296046288,
+   "sweeps": 5.418153326904532
+  },
+  {
+   "name": "poincare (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.7000000178813934,
+   "coverage": 0.40007716049382713,
+   "reflections": 9.903085824493733,
+   "sweeps": 5.553640308582449
+  },
+  {
+   "name": "klein (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.3999999761581421,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.62632594021215,
+   "sweeps": 3.932135969141755
+  },
+  {
+   "name": "klein (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.5999999940395355,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.714079074252652,
+   "sweeps": 3.976012536162006
+  },
+  {
+   "name": "halfplane (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 6.414834104938271,
+   "sweeps": 4.352719907407407
+  },
+  {
+   "name": "halfplane (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.8999999761581421,
+   "coverage": 1,
+   "reflections": 6.6575038580246915,
+   "sweeps": 4.463107638888889
+  },
+  {
+   "name": "local (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 11.62596450617284,
+   "sweeps": 6.311873070987654
+  },
+  {
+   "name": "local (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1,
+   "coverage": 1,
+   "reflections": 11.62596450617284,
+   "sweeps": 6.311873070987654
+  },
+  {
+   "name": "h3 (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.6166087962962963,
+   "reflections": 4.510558423275458,
+   "sweeps": 3.529016111371813
+  },
+  {
+   "name": "h3 (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.7000000178813934,
+   "coverage": 0.6166087962962963,
+   "reflections": 4.542155482559049,
+   "sweeps": 3.546691694040357
+  },
+  {
+   "name": "hyperboloid (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 7.59056712962963,
+   "sweeps": 4.661651234567901
+  },
+  {
+   "name": "hyperboloid (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1,
+   "coverage": 1,
+   "reflections": 7.59056712962963,
+   "sweeps": 4.661651234567901
+  },
+  {
+   "name": "band (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.7962962962962963,
+   "reflections": 12.439195736434108,
+   "sweeps": 6.749031007751938
+  },
+  {
+   "name": "band (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1,
+   "coverage": 0.7962962962962963,
+   "reflections": 12.439195736434108,
+   "sweeps": 6.749031007751938
+  },
+  {
+   "name": "poincare (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.286403085824494,
+   "sweeps": 5.893804243008679
+  },
+  {
+   "name": "poincare (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.7000000178813934,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.716007714561234,
+   "sweeps": 6.074614271938284
+  },
+  {
+   "name": "klein (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.847637415621986,
+   "sweeps": 3.8489633558341367
+  },
+  {
+   "name": "klein (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.5999999940395355,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.9696239151398265,
+   "sweeps": 3.9053760848601735
+  },
+  {
+   "name": "halfplane (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 7.08641975308642,
+   "sweeps": 4.372733410493828
+  },
+  {
+   "name": "halfplane (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.9000000059604645,
+   "coverage": 1,
+   "reflections": 7.389853395061729,
+   "sweeps": 4.500048225308642
+  },
+  {
+   "name": "local (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 14.056712962962964,
+   "sweeps": 6.882667824074074
+  },
+  {
+   "name": "local (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.100000023841858,
+   "coverage": 1,
+   "reflections": 14.056712962962964,
+   "sweeps": 6.882667824074074
+  },
+  {
+   "name": "h3 (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.6166087962962963,
+   "reflections": 3.122868762709213,
+   "sweeps": 2.6290473955889255
+  },
+  {
+   "name": "h3 (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.699999988079071,
+   "coverage": 0.6166087962962963,
+   "reflections": 3.1764429845143125,
+   "sweeps": 2.6576724542468324
+  },
+  {
+   "name": "hyperboloid (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 8.786265432098766,
+   "sweeps": 4.965422453703703
+  },
+  {
+   "name": "hyperboloid (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.0999999940395355,
+   "coverage": 1,
+   "reflections": 8.786265432098766,
+   "sweeps": 4.965422453703703
+  },
+  {
+   "name": "band (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 0.7962962962962963,
+   "reflections": 14.582606589147288,
+   "sweeps": 7.051780523255814
+  },
+  {
+   "name": "band (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.0999999940395355,
+   "coverage": 0.7962962962962963,
+   "reflections": 15.374757751937985,
+   "sweeps": 7.383660368217054
+  },
+  {
+   "name": "poincare near the boundary (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 0.9701003086419753,
+   "reflections": 3.8279976138397296,
+   "sweeps": 3.1412805726784647
+  },
+  {
+   "name": "poincare near the boundary (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.800000011920929,
+   "coverage": 0.9701003086419753,
+   "reflections": 3.8568800954464106,
+   "sweeps": 3.1546530125273415
+  },
+  {
+   "name": "local far out (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 5.187692901234568,
+   "sweeps": 2.3988233024691357
+  },
+  {
+   "name": "local far out (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.800000011920929,
+   "coverage": 1,
+   "reflections": 8.597608024691358,
+   "sweeps": 3.851466049382716
+  },
+  {
+   "name": "halfplane (7,3,2) Escher look",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2) Escher look",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.0999999940395355,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "halfplane (7,3,2) Nebula look",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2) Nebula look",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.800000011920929,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "halfplane (7,3,2) Midnight look",
+   "width": 1920,
+   "height": 1080,
+   "ms": 1,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2) Midnight look",
+   "width": 3840,
+   "height": 2160,
+   "ms": 2,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "halfplane (7,3,2) + cartesian grid",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5999999940395355,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2) + cartesian grid",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.300000011920929,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "poincare (7,3,2) + polar grid",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare (7,3,2) + polar grid",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.9000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "klein (7,3,2) + cartesian grid",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.445998071359692,
+   "sweeps": 4.162970106075217
+  },
+  {
+   "name": "klein (7,3,2) + cartesian grid",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.800000011920929,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.57039537126326,
+   "sweeps": 4.220347155255545
+  },
+  {
+   "name": "local unit grid at 1e-9 R/px",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 0,
+   "sweeps": 0
+  },
+  {
+   "name": "local unit grid at 1e-9 R/px",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.9000000059604645,
+   "coverage": 1,
+   "reflections": 0,
+   "sweeps": 0
+  },
+  {
+   "name": "halfplane unit grid at 1e-9 R/px",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 0,
+   "sweeps": 0
+  },
+  {
+   "name": "halfplane unit grid at 1e-9 R/px",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.9000000059604645,
+   "coverage": 1,
+   "reflections": 0,
+   "sweeps": 0
+  },
+  {
+   "name": "poincare {7,3} chiral, seven colours",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare {7,3} chiral, seven colours",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.9000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "poincare {7,3} Mosaic look, colouring source",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare {7,3} Mosaic look, colouring source",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.8999999761581421,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "poincare {7,3} Mosaic",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5999999940395355,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare {7,3} Mosaic",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "halfplane {7,3} Mosaic look, colouring source",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane {7,3} Mosaic look, colouring source",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.0999999940395355,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "halfplane {7,3} Mosaic",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.7000000178813934,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane {7,3} Mosaic",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.9000000059604645,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "poincare Truncated {3,7}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.30000001192092896,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare Truncated {3,7}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.5999999940395355,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "halfplane Truncated {3,7}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane Truncated {3,7}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.7000000178813934,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "poincare Omnitruncated {7,3}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare Omnitruncated {7,3}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.5999999940395355,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "halfplane Omnitruncated {7,3}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane Omnitruncated {7,3}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.7999999821186066,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "poincare Snub {5,4}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 7.863548698167792,
+   "sweeps": 4.7980954676952745
+  },
+  {
+   "name": "poincare Snub {5,4}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.5999999940395355,
+   "coverage": 0.40007716049382713,
+   "reflections": 8.100048216007714,
+   "sweeps": 4.909233365477339
+  },
+  {
+   "name": "halfplane Snub {5,4}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 4.992573302469136,
+   "sweeps": 3.744695216049383
+  },
+  {
+   "name": "halfplane Snub {5,4}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.7999999821186066,
+   "coverage": 1,
+   "reflections": 5.1939621913580245,
+   "sweeps": 3.841965663580247
+  },
+  {
+   "name": "poincare Snub {5,4} Mosaic",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.699999988079071,
+   "coverage": 0.40007716049382713,
+   "reflections": 7.863548698167792,
+   "sweeps": 4.7980954676952745
+  },
+  {
+   "name": "poincare Snub {5,4} Mosaic",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.300000011920929,
+   "coverage": 0.40007716049382713,
+   "reflections": 8.100048216007714,
+   "sweeps": 4.909233365477339
+  },
+  {
+   "name": "poincare {7,3} free point",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare {7,3} free point",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.5999999940395355,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "poincare Shoal (3,3,4)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 1.399999976158142,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.807618129218901,
+   "sweeps": 4.153567984570878
+  },
+  {
+   "name": "poincare Shoal (3,3,4)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 3.7999999821186066,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.946480231436837,
+   "sweeps": 4.229267116682738
+  },
+  {
+   "name": "halfplane Shoal (3,3,4)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 2,
+   "coverage": 1,
+   "reflections": 3.6591435185185186,
+   "sweeps": 3.316358024691358
+  },
+  {
+   "name": "halfplane Shoal (3,3,4)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 7,
+   "coverage": 1,
+   "reflections": 3.6591435185185186,
+   "sweeps": 3.316358024691358
+  },
+  {
+   "name": "poincare Moths {6,4}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 1.2000000178813934,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.736740597878495,
+   "sweeps": 4.412608486017358
+  },
+  {
+   "name": "poincare Moths {6,4}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 3.5,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.868370298939248,
+   "sweeps": 4.479146576663452
+  },
+  {
+   "name": "halfplane Moths {6,4}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 1.9000000059604645,
+   "coverage": 1,
+   "reflections": 4.52758487654321,
+   "sweeps": 3.6453993055555554
+  },
+  {
+   "name": "halfplane Moths {6,4}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 6.5999999940395355,
+   "coverage": 1,
+   "reflections": 4.52758487654321,
+   "sweeps": 3.6453993055555554
+  },
+  {
+   "name": "poincare Rosette {8,3}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 1.399999976158142,
+   "coverage": 0.40007716049382713,
+   "reflections": 9.600289296046288,
+   "sweeps": 5.418153326904532
+  },
+  {
+   "name": "poincare Rosette {8,3}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 3.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 9.903085824493733,
+   "sweeps": 5.553640308582449
+  },
+  {
+   "name": "halfplane Rosette {8,3}",
+   "width": 1920,
+   "height": 1080,
+   "ms": 1.9000000059604645,
+   "coverage": 1,
+   "reflections": 6.414834104938271,
+   "sweeps": 4.352719907407407
+  },
+  {
+   "name": "halfplane Rosette {8,3}",
+   "width": 3840,
+   "height": 2160,
+   "ms": 6.699999988079071,
+   "coverage": 1,
+   "reflections": 6.6575038580246915,
+   "sweeps": 4.463107638888889
+  },
+  {
+   "name": "poincare Birds (4,4,3)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 1.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 4.545323047251688,
+   "sweeps": 3.547010607521697
+  },
+  {
+   "name": "poincare Birds (4,4,3)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 3.9000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 4.6407907425265185,
+   "sweeps": 3.6012536162005784
+  },
+  {
+   "name": "halfplane Birds (4,4,3)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 2.5,
+   "coverage": 1,
+   "reflections": 2.945408950617284,
+   "sweeps": 2.8973765432098766
+  },
+  {
+   "name": "halfplane Birds (4,4,3)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 7.5999999940395355,
+   "coverage": 1,
+   "reflections": 2.945408950617284,
+   "sweeps": 2.8973765432098766
+  },
+  {
+   "name": "h3 Birds (4,4,3)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 1.4000000059604645,
+   "coverage": 0.6166087962962963,
+   "reflections": 2.3854997653683716,
+   "sweeps": 2.469576098858126
+  },
+  {
+   "name": "h3 Birds (4,4,3)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 4.399999976158142,
+   "coverage": 0.6166087962962963,
+   "reflections": 2.3896449241357733,
+   "sweeps": 2.4729391521977164
+  },
+  {
+   "name": "poincare {7,3} kaleidoscope picture",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare {7,3} kaleidoscope picture",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.7000000178813934,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "halfplane {7,3} kaleidoscope picture",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane {7,3} kaleidoscope picture",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.9000000059604645,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "poincare {7,3} chiral picture",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare {7,3} chiral picture",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.800000011920929,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "halfplane {7,3} chiral picture",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane {7,3} chiral picture",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1.0999999940395355,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "halfplane {7,3} kaleidoscope picture, tinted",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane {7,3} kaleidoscope picture, tinted",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.9000000059604645,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "halfplane {7,3} lines only",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane {7,3} lines only",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.800000011920929,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "poincare {7,3} picture at 1024x zoom, finest level",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.5,
+   "coverage": 1,
+   "reflections": 1.1869212962962963,
+   "sweeps": 2
+  },
+  {
+   "name": "poincare {7,3} picture at 1024x zoom, finest level",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.7000000178813934,
+   "coverage": 1,
+   "reflections": 1.1869212962962963,
+   "sweeps": 2
+  },
+  {
+   "name": "poincare {7,3} lines only at 1024x zoom",
+   "width": 1920,
+   "height": 1080,
+   "ms": 0.4000000059604645,
+   "coverage": 1,
+   "reflections": 1.1869212962962963,
+   "sweeps": 2
+  },
+  {
+   "name": "poincare {7,3} lines only at 1024x zoom",
+   "width": 3840,
+   "height": 2160,
+   "ms": 0.699999988079071,
+   "coverage": 1,
+   "reflections": 1.1869212962962963,
+   "sweeps": 2
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "hyperscope",
+  "version": "0.1.0",
+  "description": "GPU explorer of the hyperbolic plane: Poincaré and Klein disks, half-plane and local views, triangle-group tilings, a unit grid and Escher-style colourings",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc --noEmit && vite build && node tools/finish-build.ts",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:gpu": "playwright test",
+    "reference": "node tools/reference.ts",
+    "golden": "node tools/golden.ts",
+    "bench": "node tools/bench.ts",
+    "ab": "node tools/ab.ts"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@fortawesome/free-solid-svg-icons": "6.7.2",
+    "@playwright/test": "1.63.0",
+    "@types/node": "^22.20.5",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "vite-plugin-singlefile": "2.3.4",
+    "vitest": "4.0.18"
+  }
+}

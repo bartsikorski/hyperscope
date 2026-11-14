@@ -1,0 +1,209 @@
+{
+ "date": "2026-10-29T09:30:29.950Z",
+ "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+ "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+ "width": 1920,
+ "height": 1080,
+ "rows": [
+  {
+   "experiment": "grid-pass",
+   "scene": "halfplane (7,3,2) + cartesian grid",
+   "within": 0.9567925347222223,
+   "worst": 56,
+   "mean": 0.27612123842592595,
+   "equivalent": false,
+   "unit": "still picture",
+   "a": [
+    15235.30000000028,
+    15153.599999999627,
+    14561,
+    14844.100000000093
+   ],
+   "b": [
+    11003.19999999972,
+    11571.200000000186,
+    11305.899999999907,
+    10448.700000000186
+   ],
+   "ratio": 0.763594129447819,
+   "ratioMin": 0.7038958239300545,
+   "ratioMax": 0.7764507932147453,
+   "note": "outside the golden rule: look at the pictures"
+  },
+  {
+   "experiment": "grid-pass",
+   "scene": "halfplane (7,3,2) + cartesian grid",
+   "within": 0.9567925347222223,
+   "worst": 56,
+   "mean": 0.27612123842592595,
+   "equivalent": false,
+   "unit": "moving frame",
+   "a": [
+    327.10000000009313,
+    259.1999999997206,
+    336.40000000037253,
+    322
+   ],
+   "b": [
+    537.1000000000931,
+    525.5,
+    594.5999999996275,
+    615.1000000000931
+   ],
+   "ratio": 1.910248447205258,
+   "ratioMin": 1.6420055029041278,
+   "ratioMax": 2.0273919753108274,
+   "note": "outside the golden rule: look at the pictures"
+  },
+  {
+   "experiment": "grid-pass",
+   "scene": "poincare (7,3,2) + polar grid",
+   "within": 0.9805338541666667,
+   "worst": 58,
+   "mean": 0.1657349537037037,
+   "equivalent": false,
+   "unit": "still picture",
+   "a": [
+    9230.69999999972,
+    9181.700000000186,
+    10415,
+    10072.700000000186
+   ],
+   "b": [
+    6848.4000000003725,
+    7493.0999999996275,
+    7355.699999999721,
+    7139
+   ],
+   "ratio": 0.7419155643667955,
+   "ratioMin": 0.7062602016322344,
+   "ratioMax": 0.8160907021574954,
+   "note": "outside the golden rule: look at the pictures"
+  },
+  {
+   "experiment": "grid-pass",
+   "scene": "poincare (7,3,2) + polar grid",
+   "within": 0.9805338541666667,
+   "worst": 58,
+   "mean": 0.1657349537037037,
+   "equivalent": false,
+   "unit": "moving frame",
+   "a": [
+    240.10000000009313,
+    208.39999999990687,
+    200.70000000018626,
+    221.89999999990687
+   ],
+   "b": [
+    393.3000000002794,
+    369,
+    379.89999999990687,
+    399.10000000009313
+   ],
+   "ratio": 1.798557908969178,
+   "ratioMin": 1.638067471887242,
+   "ratioMax": 1.8928749377157663,
+   "note": "outside the golden rule: look at the pictures"
+  },
+  {
+   "experiment": "grid-pass",
+   "scene": "klein (7,3,2) + cartesian grid",
+   "within": 0.9825086805555555,
+   "worst": 38,
+   "mean": 0.1353197337962963,
+   "equivalent": false,
+   "unit": "still picture",
+   "a": [
+    8692.5,
+    8174.299999999814,
+    8189.300000000279,
+    8688.899999999907
+   ],
+   "b": [
+    5793.4000000003725,
+    5922.299999999814,
+    5916.5,
+    6093.899999999907
+   ],
+   "ratio": 0.7224671217319916,
+   "ratioMin": 0.666482599942522,
+   "ratioMax": 0.724502403875555,
+   "note": "outside the golden rule: look at the pictures"
+  },
+  {
+   "experiment": "grid-pass",
+   "scene": "klein (7,3,2) + cartesian grid",
+   "within": 0.9825086805555555,
+   "worst": 38,
+   "mean": 0.1353197337962963,
+   "equivalent": false,
+   "unit": "moving frame",
+   "a": [
+    191.60000000009313,
+    209.60000000009313,
+    231.1999999997206,
+    189.29999999981374
+   ],
+   "b": [
+    353,
+    380.6999999997206,
+    392.90000000037253,
+    446
+   ],
+   "ratio": 1.842379958245451,
+   "ratioMin": 1.699394463671485,
+   "ratioMax": 2.356048600107971,
+   "note": "outside the golden rule: look at the pictures"
+  },
+  {
+   "experiment": "grid-pass",
+   "scene": "local unit grid at 1e-9 R/px",
+   "within": 0.9760286458333334,
+   "worst": 18,
+   "mean": 0.19958333333333333,
+   "equivalent": false,
+   "unit": "still picture",
+   "a": [
+    5340.5,
+    5651.5,
+    5403.800000000279,
+    5048.5
+   ],
+   "b": [
+    989,
+    1006.6000000000931,
+    951.5,
+    868.1999999997206
+   ],
+   "ratio": 0.17811200566223004,
+   "ratioMin": 0.17197187283345955,
+   "ratioMax": 0.18518865274787005,
+   "note": "outside the golden rule: look at the pictures"
+  },
+  {
+   "experiment": "grid-pass",
+   "scene": "local unit grid at 1e-9 R/px",
+   "within": 0.9760286458333334,
+   "worst": 18,
+   "mean": 0.19958333333333333,
+   "equivalent": false,
+   "unit": "moving frame",
+   "a": [
+    138.89999999990687,
+    153.29999999981374,
+    139.3000000002794,
+    134.5
+   ],
+   "b": [
+    407.39999999990687,
+    449.70000000018626,
+    438,
+    389.79999999981374
+   ],
+   "ratio": 2.9334637964822745,
+   "ratioMin": 2.8981412639391357,
+   "ratioMax": 3.144292893030305,
+   "note": "outside the golden rule: look at the pictures"
+  }
+ ]
+}

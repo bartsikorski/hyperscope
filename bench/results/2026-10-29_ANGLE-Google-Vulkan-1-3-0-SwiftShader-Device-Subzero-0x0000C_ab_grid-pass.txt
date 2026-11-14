@@ -1,0 +1,13 @@
+ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36
+1920 x 1080, 2026-10-29T09:30:29.950Z
+
+experiment             scene                                                unit          within 2 / worst      A ms      B ms  B / A (rounds)
+grid-pass              halfplane (7,3,2) + cartesian grid                   still picture     95.68% / 56   15153.6   11305.9  0.764 (0.70–0.78)  outside the golden rule: look at the pictures
+grid-pass              halfplane (7,3,2) + cartesian grid                   moving frame      95.68% / 56     327.1     594.6  1.910 (1.64–2.03)  outside the golden rule: look at the pictures
+grid-pass              poincare (7,3,2) + polar grid                        still picture     98.05% / 58   10072.7    7355.7  0.742 (0.71–0.82)  outside the golden rule: look at the pictures
+grid-pass              poincare (7,3,2) + polar grid                        moving frame      98.05% / 58     221.9     393.3  1.799 (1.64–1.89)  outside the golden rule: look at the pictures
+grid-pass              klein (7,3,2) + cartesian grid                       still picture     98.25% / 38    8688.9    5922.3  0.722 (0.67–0.72)  outside the golden rule: look at the pictures
+grid-pass              klein (7,3,2) + cartesian grid                       moving frame      98.25% / 38     209.6     392.9  1.842 (1.70–2.36)  outside the golden rule: look at the pictures
+grid-pass              local unit grid at 1e-9 R/px                         still picture     97.60% / 18    5403.8     989.0  0.178 (0.17–0.19)  outside the golden rule: look at the pictures
+grid-pass              local unit grid at 1e-9 R/px                         moving frame      97.60% / 18     139.3     438.0  2.933 (2.90–3.14)  outside the golden rule: look at the pictures

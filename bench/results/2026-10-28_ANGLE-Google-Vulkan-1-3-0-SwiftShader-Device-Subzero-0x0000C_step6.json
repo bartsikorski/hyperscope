@@ -1,0 +1,261 @@
+{
+ "date": "2026-10-28T12:23:38.487Z",
+ "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+ "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+ "floatTargets": true,
+ "timing": "median wall time per sample pass, synchronised by a 1-pixel read-back",
+ "results": [
+  {
+   "name": "poincare (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 282.6000000005588,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 964.5,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "klein (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 218.5,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.445998071359692,
+   "sweeps": 4.162970106075217
+  },
+  {
+   "name": "klein (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 871.7000000001863,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.57039537126326,
+   "sweeps": 4.220347155255545
+  },
+  {
+   "name": "halfplane (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 377.6000000005588,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1752.1000000005588,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "local (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 644.6000000005588,
+   "coverage": 1,
+   "reflections": 14.423225308641975,
+   "sweeps": 7.235677083333333
+  },
+  {
+   "name": "local (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 2277.800000000745,
+   "coverage": 1,
+   "reflections": 14.423225308641975,
+   "sweeps": 7.235677083333333
+  },
+  {
+   "name": "poincare (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 217.5,
+   "coverage": 0.40007716049382713,
+   "reflections": 9.600289296046288,
+   "sweeps": 5.418153326904532
+  },
+  {
+   "name": "poincare (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 902.5,
+   "coverage": 0.40007716049382713,
+   "reflections": 9.903085824493733,
+   "sweeps": 5.553640308582449
+  },
+  {
+   "name": "klein (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 202,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.62632594021215,
+   "sweeps": 3.932135969141755
+  },
+  {
+   "name": "klein (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 876.9000000003725,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.714079074252652,
+   "sweeps": 3.976012536162006
+  },
+  {
+   "name": "halfplane (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 386,
+   "coverage": 1,
+   "reflections": 6.414834104938271,
+   "sweeps": 4.352719907407407
+  },
+  {
+   "name": "halfplane (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1408.6000000005588,
+   "coverage": 1,
+   "reflections": 6.6575038580246915,
+   "sweeps": 4.463107638888889
+  },
+  {
+   "name": "local (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 505.5,
+   "coverage": 1,
+   "reflections": 11.62596450617284,
+   "sweeps": 6.311873070987654
+  },
+  {
+   "name": "local (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1973.2000000001863,
+   "coverage": 1,
+   "reflections": 11.62596450617284,
+   "sweeps": 6.311873070987654
+  },
+  {
+   "name": "poincare (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 264.90000000037253,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.286403085824494,
+   "sweeps": 5.893804243008679
+  },
+  {
+   "name": "poincare (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1051.4000000003725,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.716007714561234,
+   "sweeps": 6.074614271938284
+  },
+  {
+   "name": "klein (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 194,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.847637415621986,
+   "sweeps": 3.8489633558341367
+  },
+  {
+   "name": "klein (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 835.2999999998137,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.9696239151398265,
+   "sweeps": 3.9053760848601735
+  },
+  {
+   "name": "halfplane (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 371.90000000037253,
+   "coverage": 1,
+   "reflections": 7.08641975308642,
+   "sweeps": 4.372733410493828
+  },
+  {
+   "name": "halfplane (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1591.8999999994412,
+   "coverage": 1,
+   "reflections": 7.389853395061729,
+   "sweeps": 4.500048225308642
+  },
+  {
+   "name": "local (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 522.8999999994412,
+   "coverage": 1,
+   "reflections": 14.056712962962964,
+   "sweeps": 6.882667824074074
+  },
+  {
+   "name": "local (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 2006.300000000745,
+   "coverage": 1,
+   "reflections": 14.056712962962964,
+   "sweeps": 6.882667824074074
+  },
+  {
+   "name": "poincare near the boundary (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 353.09999999962747,
+   "coverage": 0.9701003086419753,
+   "reflections": 3.8279976138397296,
+   "sweeps": 3.1412805726784647
+  },
+  {
+   "name": "poincare near the boundary (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1313.2999999998137,
+   "coverage": 0.9701003086419753,
+   "reflections": 3.8568800954464106,
+   "sweeps": 3.1546530125273415
+  },
+  {
+   "name": "local far out (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 245.1000000005588,
+   "coverage": 1,
+   "reflections": 5.187692901234568,
+   "sweeps": 2.3988233024691357
+  },
+  {
+   "name": "local far out (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1301.7999999998137,
+   "coverage": 1,
+   "reflections": 8.597608024691358,
+   "sweeps": 3.851466049382716
+  }
+ ]
+}

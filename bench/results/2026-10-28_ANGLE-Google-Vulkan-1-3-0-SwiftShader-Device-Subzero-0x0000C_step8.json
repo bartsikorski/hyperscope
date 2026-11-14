@@ -1,0 +1,405 @@
+{
+ "date": "2026-10-28T20:43:41.016Z",
+ "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+ "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+ "floatTargets": true,
+ "timing": "median wall time per sample pass, synchronised by a 1-pixel read-back",
+ "results": [
+  {
+   "name": "poincare (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 275.5999999999767,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1107.0999999999767,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "klein (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 223.19999999995343,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.445998071359692,
+   "sweeps": 4.162970106075217
+  },
+  {
+   "name": "klein (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 893.4000000000233,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.57039537126326,
+   "sweeps": 4.220347155255545
+  },
+  {
+   "name": "halfplane (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 399.10000000009313,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1602.1999999999534,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "local (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 602.4000000000233,
+   "coverage": 1,
+   "reflections": 14.423225308641975,
+   "sweeps": 7.235677083333333
+  },
+  {
+   "name": "local (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 2151,
+   "coverage": 1,
+   "reflections": 14.423225308641975,
+   "sweeps": 7.235677083333333
+  },
+  {
+   "name": "poincare (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 235.90000000002328,
+   "coverage": 0.40007716049382713,
+   "reflections": 9.600289296046288,
+   "sweeps": 5.418153326904532
+  },
+  {
+   "name": "poincare (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 998.3999999999069,
+   "coverage": 0.40007716049382713,
+   "reflections": 9.903085824493733,
+   "sweeps": 5.553640308582449
+  },
+  {
+   "name": "klein (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 235.5,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.62632594021215,
+   "sweeps": 3.932135969141755
+  },
+  {
+   "name": "klein (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 834.7999999999302,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.714079074252652,
+   "sweeps": 3.976012536162006
+  },
+  {
+   "name": "halfplane (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 367.0999999999767,
+   "coverage": 1,
+   "reflections": 6.414834104938271,
+   "sweeps": 4.352719907407407
+  },
+  {
+   "name": "halfplane (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1437.1999999999534,
+   "coverage": 1,
+   "reflections": 6.6575038580246915,
+   "sweeps": 4.463107638888889
+  },
+  {
+   "name": "local (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 541.0999999999767,
+   "coverage": 1,
+   "reflections": 11.62596450617284,
+   "sweeps": 6.311873070987654
+  },
+  {
+   "name": "local (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 2166.3000000000466,
+   "coverage": 1,
+   "reflections": 11.62596450617284,
+   "sweeps": 6.311873070987654
+  },
+  {
+   "name": "poincare (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 252.60000000009313,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.286403085824494,
+   "sweeps": 5.893804243008679
+  },
+  {
+   "name": "poincare (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1150,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.716007714561234,
+   "sweeps": 6.074614271938284
+  },
+  {
+   "name": "klein (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 175.40000000002328,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.847637415621986,
+   "sweeps": 3.8489633558341367
+  },
+  {
+   "name": "klein (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 782.7999999999302,
+   "coverage": 0.40007716049382713,
+   "reflections": 5.9696239151398265,
+   "sweeps": 3.9053760848601735
+  },
+  {
+   "name": "halfplane (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 363.80000000004657,
+   "coverage": 1,
+   "reflections": 7.08641975308642,
+   "sweeps": 4.372733410493828
+  },
+  {
+   "name": "halfplane (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1403.0999999999767,
+   "coverage": 1,
+   "reflections": 7.389853395061729,
+   "sweeps": 4.500048225308642
+  },
+  {
+   "name": "local (2,3,7)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 508.9000000000233,
+   "coverage": 1,
+   "reflections": 14.056712962962964,
+   "sweeps": 6.882667824074074
+  },
+  {
+   "name": "local (2,3,7)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 2069.1999999999534,
+   "coverage": 1,
+   "reflections": 14.056712962962964,
+   "sweeps": 6.882667824074074
+  },
+  {
+   "name": "poincare near the boundary (8,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 301.30000000004657,
+   "coverage": 0.9701003086419753,
+   "reflections": 3.8279976138397296,
+   "sweeps": 3.1412805726784647
+  },
+  {
+   "name": "poincare near the boundary (8,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1274.4000000000233,
+   "coverage": 0.9701003086419753,
+   "reflections": 3.8568800954464106,
+   "sweeps": 3.1546530125273415
+  },
+  {
+   "name": "local far out (7,3,2)",
+   "width": 1920,
+   "height": 1080,
+   "ms": 232.79999999993015,
+   "coverage": 1,
+   "reflections": 5.187692901234568,
+   "sweeps": 2.3988233024691357
+  },
+  {
+   "name": "local far out (7,3,2)",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1192.9000000000233,
+   "coverage": 1,
+   "reflections": 8.597608024691358,
+   "sweeps": 3.851466049382716
+  },
+  {
+   "name": "halfplane (7,3,2) Escher look",
+   "width": 1920,
+   "height": 1080,
+   "ms": 500.30000000004657,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2) Escher look",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1938.1999999999534,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "halfplane (7,3,2) Nebula look",
+   "width": 1920,
+   "height": 1080,
+   "ms": 456.9000000001397,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2) Nebula look",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1594.3000000000466,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "halfplane (7,3,2) Midnight look",
+   "width": 1920,
+   "height": 1080,
+   "ms": 246,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2) Midnight look",
+   "width": 3840,
+   "height": 2160,
+   "ms": 911.6999999999534,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "halfplane (7,3,2) + cartesian grid",
+   "width": 1920,
+   "height": 1080,
+   "ms": 590.7999999998137,
+   "coverage": 1,
+   "reflections": 7.704764660493828,
+   "sweeps": 4.769386574074074
+  },
+  {
+   "name": "halfplane (7,3,2) + cartesian grid",
+   "width": 3840,
+   "height": 2160,
+   "ms": 2573,
+   "coverage": 1,
+   "reflections": 8.010368441358025,
+   "sweeps": 4.899402006172839
+  },
+  {
+   "name": "poincare (7,3,2) + polar grid",
+   "width": 1920,
+   "height": 1080,
+   "ms": 448.5,
+   "coverage": 0.40007716049382713,
+   "reflections": 11.684426229508198,
+   "sweeps": 6.078592092574735
+  },
+  {
+   "name": "poincare (7,3,2) + polar grid",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1715.3000000000466,
+   "coverage": 0.40007716049382713,
+   "reflections": 12.119575699132112,
+   "sweeps": 6.264223722275796
+  },
+  {
+   "name": "klein (7,3,2) + cartesian grid",
+   "width": 1920,
+   "height": 1080,
+   "ms": 558.4000000001397,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.445998071359692,
+   "sweeps": 4.162970106075217
+  },
+  {
+   "name": "klein (7,3,2) + cartesian grid",
+   "width": 3840,
+   "height": 2160,
+   "ms": 2065.1999999999534,
+   "coverage": 0.40007716049382713,
+   "reflections": 6.57039537126326,
+   "sweeps": 4.220347155255545
+  },
+  {
+   "name": "local unit grid at 1e-9 R/px",
+   "width": 1920,
+   "height": 1080,
+   "ms": 422.80000000004657,
+   "coverage": 1,
+   "reflections": 0,
+   "sweeps": 0
+  },
+  {
+   "name": "local unit grid at 1e-9 R/px",
+   "width": 3840,
+   "height": 2160,
+   "ms": 1415.1000000000931,
+   "coverage": 1,
+   "reflections": 0,
+   "sweeps": 0
+  },
+  {
+   "name": "halfplane unit grid at 1e-9 R/px",
+   "width": 1920,
+   "height": 1080,
+   "ms": 172.60000000009313,
+   "coverage": 1,
+   "reflections": 0,
+   "sweeps": 0
+  },
+  {
+   "name": "halfplane unit grid at 1e-9 R/px",
+   "width": 3840,
+   "height": 2160,
+   "ms": 674.3000000000466,
+   "coverage": 1,
+   "reflections": 0,
+   "sweeps": 0
+  }
+ ]
+}

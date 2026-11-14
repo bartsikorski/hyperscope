@@ -1,0 +1,40 @@
+ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0
+1920 x 1080, 2026-10-29T08:49:55.518Z
+
+experiment             scene                                                unit          within 2 / worst      A ms      B ms  B / A (rounds)
+fold-dihedral          poincare (7,3,2), inside source                      sample pass       100.00% / 3     0.054     0.050  0.944 (0.94–0.95)
+fold-dihedral          halfplane (7,3,2), inside source                     sample pass        99.97% / 4     0.085     0.079  0.943 (0.93–0.95)
+fold-dihedral          local (7,3,2), inside source                         sample pass        99.84% / 6     0.100     0.092  0.930 (0.92–0.93)
+fold-dihedral          poincare near the boundary (8,3,2), inside source    sample pass        99.97% / 5     0.073     0.073  0.999 (0.98–1.01)
+reflect-branchless     poincare (7,3,2)                                     sample pass       100.00% / 0     0.109     0.154  1.427 (1.42–1.43)
+reflect-branchless     halfplane (7,3,2)                                    sample pass       100.00% / 0     0.148     0.234  1.580 (1.57–1.58)
+reflect-branchless     local (7,3,2)                                        sample pass       100.00% / 0     0.196     0.314  1.606 (1.60–1.61)
+reflect-branchless     halfplane (7,3,2) Escher look                        sample pass       100.00% / 0     0.200     0.296  1.478 (1.47–1.49)
+reflect-branchless     halfplane (7,3,2) Nebula look                        sample pass       100.00% / 0     0.132     0.146  1.108 (1.09–1.11)
+geometry-complex       poincare (7,3,2)                                     sample pass       100.00% / 2     0.109     0.130  1.195 (1.19–1.20)
+geometry-complex       halfplane (7,3,2)                                    sample pass       100.00% / 1     0.148     0.182  1.228 (1.22–1.23)
+geometry-complex       local (7,3,2)                                        sample pass      100.00% / 10     0.195     0.247  1.268 (1.25–1.27)
+geometry-complex       poincare near the boundary (8,3,2)                   sample pass       100.00% / 1     0.117     0.138  1.187 (1.17–1.19)
+footprint-derivatives  poincare (7,3,2)                                     sample pass       97.89% / 44     0.107     0.220  2.060 (2.05–2.07)  not equivalent  vs CPU reference: A 100.00%, mean 0.01; B 97.90%, mean 0.13
+footprint-derivatives  klein (7,3,2)                                        sample pass       96.13% / 71     0.081     0.098  1.207 (1.19–1.21)  not equivalent  vs CPU reference: A 100.00%, mean 0.00; B 96.14%, mean 0.23
+footprint-derivatives  halfplane (7,3,2)                                    sample pass       98.54% / 16     0.147     0.149  1.014 (1.01–1.02)  not equivalent  vs CPU reference: A 100.00%, mean 0.01; B 98.55%, mean 0.07
+footprint-derivatives  local (7,3,2)                                        sample pass       84.57% / 60     0.193     0.197  1.021 (1.02–1.02)  not equivalent  vs CPU reference: A 100.00%, mean 0.02; B 84.54%, mean 0.79
+uber-shader            halfplane (7,3,2)                                    sample pass       100.00% / 0     0.147     0.156  1.068 (1.06–1.07)
+uber-shader            halfplane (7,3,2) Escher look                        sample pass       100.00% / 0     0.206     0.213  1.038 (1.03–1.04)
+uber-shader            halfplane (7,3,2) Midnight look                      sample pass       100.00% / 0     0.088     0.094  1.089 (1.04–1.09)
+uber-shader            halfplane: compile 6 variants                        compile           100.00% / 0     333.8      30.0  0.090 (0.09–0.09)  one run each, first use in a fresh renderer (the browser may cache compiled shaders)
+perm-arrays            poincare (7,3,2)                                     sample pass       100.00% / 0     0.108     0.256  2.377 (2.35–2.40)
+perm-arrays            halfplane (7,3,2)                                    sample pass       100.00% / 0     0.147     0.365  2.411 (2.38–2.50)
+perm-arrays            halfplane {6,4} in eight colours                     sample pass       100.00% / 0     0.132     0.250  1.891 (1.47–1.93)
+grid-jacobian          klein (7,3,2) + cartesian grid                       sample pass       99.89% / 90     0.160     0.126  0.790 (0.78–0.79)  not equivalent  vs CPU reference: A 100.00%, mean 0.01; B 99.89%, mean 0.03
+grid-jacobian          local (7,3,2) + polar grid                           sample pass       99.99% / 16     0.416     0.306  0.763 (0.71–0.76)
+grid-jacobian          klein (7,3,2) + horocyclic grid                      sample pass       99.84% / 90     0.136     0.120  0.883 (0.88–0.89)  not equivalent  vs CPU reference: A 100.00%, mean 0.01; B 99.84%, mean 0.03
+grid-pass              halfplane (7,3,2) + cartesian grid                   still picture     95.68% / 79     4.086     2.519  0.619 (0.62–0.62)  outside the golden rule: look at the pictures
+grid-pass              halfplane (7,3,2) + cartesian grid                   moving frame      95.68% / 79     0.083     0.206  2.490 (2.46–2.55)  outside the golden rule: look at the pictures
+grid-pass              poincare (7,3,2) + polar grid                        still picture     98.05% / 69     2.383     1.864  0.778 (0.78–0.81)  outside the golden rule: look at the pictures
+grid-pass              poincare (7,3,2) + polar grid                        moving frame      98.05% / 69     0.059     0.102  1.771 (1.72–1.78)  outside the golden rule: look at the pictures
+grid-pass              klein (7,3,2) + cartesian grid                       still picture     98.18% / 72     2.571     1.403  0.548 (0.54–0.55)  outside the golden rule: look at the pictures
+grid-pass              klein (7,3,2) + cartesian grid                       moving frame      98.18% / 72     0.062     0.139  2.237 (2.23–2.24)  outside the golden rule: look at the pictures
+grid-pass              local unit grid at 1e-9 R/px                         still picture     97.59% / 18     4.000     0.789  0.197 (0.20–0.20)  outside the golden rule: look at the pictures
+grid-pass              local unit grid at 1e-9 R/px                         moving frame      97.59% / 18     0.084     0.292  3.479 (3.45–3.50)  outside the golden rule: look at the pictures
