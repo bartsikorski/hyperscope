@@ -4,7 +4,7 @@
 // difference under 0.25/255, and no pixel off by more than 48/255 (three of its 16 samples landing
 // on the other side of a full-contrast edge).
 
-import { expect, test } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { decodePNG, encodePNG } from "../../tools/png.ts";
 import { GOLDEN_SAMPLES, GOLDEN_SCENES, goldenShot } from "../golden/scenes.ts";

@@ -4,7 +4,8 @@
 // screenshot that carries the picture to a fresh browser, a link without it and its note, an image
 // dropped or pasted on the window, and presets written with their pictures.
 
-import { expect, test, type Browser, type Page } from "@playwright/test";
+import { type Browser, type Page } from "@playwright/test";
+import { expect, freshContext, test } from "./fixtures.ts";
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { DEFAULT_PLACEMENT } from "../../src/content/tileimage.ts";
@@ -29,7 +30,7 @@ const tileImage = (page: Page) =>
 const content = (page: Page) => page.evaluate(() => (window.hyperscope.state!() as { content: { group: number[]; construction?: string; motif?: unknown } }).content);
 const note = (page: Page) => page.getByLabel("Tile picture check");
 /** A browser with nothing kept: no session, no pictures. */
-const freshPage = async (browser: Browser) => (await browser.newContext({ baseURL: "http://localhost:5173", viewport: { width: 640, height: 480 } })).newPage();
+const freshPage = async (browser: Browser) => (await freshContext(browser, { baseURL: "http://localhost:5173", viewport: { width: 640, height: 480 } })).newPage();
 
 /** The canvas as RGBA bytes. */
 async function pixels(page: Page): Promise<Uint8Array> {

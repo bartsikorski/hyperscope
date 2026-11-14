@@ -2,7 +2,8 @@
 // the state, it fades and comes back, Tab hides it, help opens and closes, the grid's labels keep
 // out of it, and none of this keeps the render loop running.
 
-import { expect, test, type Page } from "@playwright/test";
+import { type Page } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 
 async function open(page: Page, query = "") {
   await page.goto(`/${query}`);

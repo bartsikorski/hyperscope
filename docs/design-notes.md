@@ -24,6 +24,11 @@ Milestone 2 (steps 11 to 18 of the second precise design) is done, on top of ver
   visit says how to move and where the controls are, the construction list says "Lines (the
   mirrors)", and the repository gained continuous integration, a GitHub Pages build and a README
   for readers who have not seen the design.
+- **Browser tests and real controllers.** On a PC with a DualSense attached, 27 browser tests failed
+  that pass in the cloud: the views kept moving and the picture never settled. The likely cause: a
+  connected controller is read every frame (so the render loop never rests) and a stick resting
+  slightly off centre moves the view. The tests now import `test` from `tests/gpu/fixtures.ts`, which hides the machine's
+  controllers from every page (no pads, no connect events); `gamepad.spec.ts` scripts its own.
 
 ## State of version 1
 

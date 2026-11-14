@@ -1,4 +1,4 @@
-import { expect, test } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 
 const decode = (b64: string) => Buffer.from(b64, "base64");
 

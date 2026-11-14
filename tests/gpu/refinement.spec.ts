@@ -2,7 +2,8 @@
 // GPU stops, a change starts over, moving frames may be drawn at a lower scale and upscaled, the
 // display dithers by at most one step, and the 8-bit fallback.
 
-import { expect, test, type Page } from "@playwright/test";
+import { type Page } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { buildContent, type ContentState } from "../../src/content/scene.ts";
 import type { ViewState } from "../../src/input/camera.ts";

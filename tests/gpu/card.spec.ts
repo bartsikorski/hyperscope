@@ -3,7 +3,8 @@
 // fields put the camera exactly where typed, the look previews leave the picture alone, the accent
 // recolours only the controls and the rim, and keys typed into a field stay in the field.
 
-import { expect, test, type Locator, type Page } from "@playwright/test";
+import { type Locator, type Page } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 import { LOOKS } from "../../src/content/looks.ts";
 import { motifSpecOf } from "../../src/content/motifs.ts";
 import { H3_HOME, tiltWith } from "../../src/math/views.ts";
