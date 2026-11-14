@@ -1,7 +1,8 @@
 // Scripted input in the real page (design: Tests, "GPU: interaction"): the grabbed point must stay
 // under the cursor within 0.5 px through drags, wheel zooms, rotation and keys.
 
-import { expect, test, type Page } from "@playwright/test";
+import { type Page } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 import { H3_HOME, tiltWith } from "../../src/math/views.ts";
 
 type Probe = { folded: [number, number, number]; colour: number };

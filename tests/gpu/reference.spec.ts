@@ -2,7 +2,7 @@
 // Pass rule: at least 99.5% of pixels within 2/255 per channel; every other pixel must sit where the
 // reference itself changes by more than that when its sample moves 1e-3 px.
 
-import { expect, test } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { DEFAULT_LOOK, LOOKS } from "../../src/content/looks.ts";
 import type { MotifSpec } from "../../src/math/motifs.ts";

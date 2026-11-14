@@ -10,7 +10,7 @@ licence, reproduced or linked here.
 | JetBrains Mono 300 and 400, Latin subset (WOFF2), by the JetBrains Mono Project Authors, packaged by Fontsource | `@fontsource/jetbrains-mono` 5.3.0 | `src/ui/fonts.ts` | SIL Open Font License 1.1 |
 | Font Awesome Free solid icons (SVG paths), by Fonticons, Inc. | `@fortawesome/free-solid-svg-icons` 6.7.2 | `src/ui/icons.ts`, `src/ui/toolbar.ts`, `src/ui/hud.ts` | Creative Commons Attribution 4.0 |
 
-The four view pictograms in `src/ui/icons.ts` are drawn for Hyperscope and are MIT licensed with
+The seven view pictograms in `src/ui/icons.ts` are drawn for Hyperscope and are MIT licensed with
 the rest of it.
 
 ## Font Awesome Free icons

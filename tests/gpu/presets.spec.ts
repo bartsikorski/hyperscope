@@ -2,7 +2,8 @@
 // as pictures and opened whole, your own saved with a picture, kept across a reload, deleted with
 // a confirming second click, written to a file and read back, and JSON dropped on the window.
 
-import { expect, test, type Page } from "@playwright/test";
+import { type Page } from "@playwright/test";
+import { expect, freshContext, test } from "./fixtures.ts";
 import { readFileSync } from "node:fs";
 import { LOOKS } from "../../src/content/looks.ts";
 import { PRESETS } from "../../src/content/scene.ts";
@@ -161,7 +162,7 @@ test("export writes your presets to a file; import and a drop read them back, re
   expect(json.presets.map((p: { name: string }) => p.name)).toEqual(["Home", "Moved"]);
   await expect(toast(page)).toHaveText("2 presets written to hyperscope-presets.json");
   // in a fresh browser: import the file with one broken preset added
-  const fresh = await (await page.context().browser()!.newContext({ baseURL: "http://localhost:5173", viewport: { width: 640, height: 480 } })).newPage();
+  const fresh = await (await freshContext(page.context().browser()!, { baseURL: "http://localhost:5173", viewport: { width: 640, height: 480 } })).newPage();
   await open(fresh);
   await openGallery(fresh);
   const broken = { ...json, presets: [...json.presets, { name: "Flat", state: { ...json.presets[0].state, content: { ...json.presets[0].state.content, group: [4, 4, 2] } } }] };

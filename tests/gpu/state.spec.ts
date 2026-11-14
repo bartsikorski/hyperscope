@@ -3,7 +3,8 @@
 // return to views bit for bit, a link opened in a new page and a reload restore the state exactly,
 // the address bar follows without adding browser history, and Ctrl+C / Ctrl+V carry links.
 
-import { expect, test, type Page } from "@playwright/test";
+import { type Page } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 import { fromLink, save } from "../../src/state/saved.ts";
 
 async function open(page: Page, url = "/") {

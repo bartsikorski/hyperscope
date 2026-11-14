@@ -2,7 +2,7 @@
 // compiles: each patch must match exactly once, so a change to the shaders that moves one fails here
 // rather than when the benchmark is next run.
 
-import { expect, test } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 
 test("every benchmark experiment compiles for every variant it draws", async ({ page }) => {
   test.setTimeout(900_000);

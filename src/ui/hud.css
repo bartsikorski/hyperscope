@@ -78,14 +78,15 @@ html, body { margin: 0; height: 100%; background: var(--canvas); overflow: hidde
 /* ---------------------------------------------------------------------------------- help */
 
 .hs-help { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); box-sizing: border-box;
-  width: min(720px, calc(100vw - 32px)); max-height: calc(100vh - 32px); overflow: auto; padding: 20px 22px 18px;
+  width: min(1060px, calc(100vw - 32px)); max-height: calc(100vh - 32px); overflow: auto; padding: 20px 22px 18px;
   pointer-events: auto; font: 400 12px/1.5 var(--sans); color: var(--text); }
 .hs-help[hidden] { display: none; }
 .hs-help-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
 .hs-help h2 { margin: 0; font: 600 11px/1 var(--sans); letter-spacing: 0.28em; text-transform: uppercase; }
 .hs-help .hs-close { font-size: 14px; color: var(--text-2); padding: 4px; margin: -4px; border-radius: 6px; }
 .hs-help .hs-close:hover { color: var(--text); }
-.hs-help-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4px 28px; }
+.hs-help-cols { columns: 300px 3; column-gap: 28px; }
+.hs-help section { break-inside: avoid; padding-bottom: 4px; }
 .hs-help h3 { margin: 10px 0 6px; font: 600 9px/1 var(--sans); letter-spacing: 0.22em; text-transform: uppercase; color: var(--text-2); }
 .hs-help dl { display: grid; grid-template-columns: 124px 1fr; gap: 3px 14px; margin: 0; }
 .hs-help dt { font: 400 11px/1.6 var(--mono); color: var(--accent); white-space: nowrap; }

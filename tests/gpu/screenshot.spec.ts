@@ -2,7 +2,8 @@
 // view at the chosen size with every sample, the parts of a large one join without a seam, the
 // grid's labels are drawn on top, and the PNG carries the state, so dropping it returns there.
 
-import { expect, test, type Page } from "@playwright/test";
+import { type Page } from "@playwright/test";
+import { expect, test } from "./fixtures.ts";
 import { readFileSync } from "node:fs";
 import { buildContent, PRESETS } from "../../src/content/scene.ts";
 import { homeView } from "../../src/input/camera.ts";
