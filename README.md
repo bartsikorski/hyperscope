@@ -4,7 +4,7 @@ A GPU explorer of the hyperbolic plane. Every pixel is mapped onto the hyperbolo
 camera and folded by reflections into one triangle of a tiling, so the picture is exact at any zoom
 and runs smoothly in a browser.
 
-![Four views in Hyperscope: a {6,4} tiling in the Poincaré disk, the Shoal motif, {3,7} triangles in the half-plane and the snub {5,4} in the band](docs/images/hyperscope.jpg)
+![Dragging the plane through the Shoal motif, then the built-in tilings one after another, each in a different look](docs/media/demo.gif)
 
 **Try it:** open <https://bartsikorski.github.io/hyperscope/>, or download `hyperscope.html` from the
 [latest build](https://github.com/bartsikorski/hyperscope/actions/workflows/pages.yml) and open it
@@ -12,6 +12,8 @@ from disk. It is one self-contained file that works offline. You need a browser 
 recent Chrome, Edge, Firefox or Safari).
 
 ## What it shows
+
+![The snub {5,4} in all seven views: the Poincaré disk, the Klein disk, the upper half-plane, the local view, inside H³, the hyperboloid and the band](docs/media/views.jpg)
 
 - **Seven views of the plane:** the Poincaré disk, the Klein disk, the upper half-plane, a local
   view that looks Euclidean near the centre, the band along one geodesic, the plane seen from an eye
@@ -33,7 +35,7 @@ recent Chrome, Edge, Firefox or Safari).
   stay in the browser and can be exported, and a screenshot (up to 7680 × 4320) carries its view
   inside the PNG, so dropping it on the window takes you back there.
 
-![The plane seen from an eye 0.3 R above it, inside H³](docs/images/inside-h3.jpg)
+![Walking over the Birds motif inside H³, with the eye a little above the plane](docs/media/walk.gif)
 
 ## Controls
 
@@ -66,6 +68,10 @@ The icon row at the top right has home, back and forward, the seven views, the p
 grid, a screenshot, the settings card (Tiling, Look and View tabs, where every setting can be
 changed, including an exact position typed to any number of digits) and the help. It fades when you
 rest and comes back when you move the mouse.
+
+| The settings card (Look tab) | The presets gallery |
+| --- | --- |
+| ![The settings card open on the Look tab, with the 15 looks and the palettes](docs/media/settings.jpg) | ![The presets gallery, one picture for each built-in preset](docs/media/presets.jpg) |
 
 A game controller works too (Xbox, PlayStation, Switch Pro and others the browser maps to its
 standard layout): the left stick moves, the right stick rotates and zooms, RT and LT zoom, LB and RB
@@ -121,7 +127,7 @@ The formulas were checked numerically before they were coded: the scripts in
 | `bench` | the benchmark and A/B pages, the experiments and the saved results |
 | `tools` | the reference, golden and benchmark scripts and the test-vector generators (mpmath for geometry, mandelscope's own code for palettes) |
 | `design-checks` | the numerical checks of the design's formulas |
-| `docs` | [design notes](docs/design-notes.md): every decision with its reasons and measurements, including the benchmarks on a software renderer and an RTX 5060 Ti |
+| `docs` | [design notes](docs/design-notes.md): every decision with its reasons and measurements, including the benchmarks on a software renderer and an RTX 5060 Ti; `docs/media` holds the pictures in this README |
 
 ## Credits and licence
 
